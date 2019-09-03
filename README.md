@@ -2,7 +2,14 @@
 
 Character combination file generator to be used in controlled security penetration tests.
 
+
+### Requirements
+
 Require python >= 3.6
+
+For install dependencies use pip:
+
+    $ pip3 install --user -r requirements.txt
 
 
 ### Examples
