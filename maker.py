@@ -9,14 +9,16 @@ from pentest.io         import Inputs
 
 class Controller(object):
 
-    def __init__(self):
 
+    def __init__(self):
 
         # Header message
         print('Dictionary Maker');
 
+        # Input handler
         inputs = Inputs()
 
+        # Options from user input
         data = {
             'max-length' : inputs.get('Enter max longitude of word [4]        : ', int, 4),
             'lowercase'  : inputs.get('Use letters lowercase?      [Y/n]      : ', bool, True),
