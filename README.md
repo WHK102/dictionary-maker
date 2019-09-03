@@ -2,6 +2,8 @@
 
 Character combination file generator to be used in controlled security penetration tests.
 
+Require python >= 3.6
+
 
 ### Examples
 
